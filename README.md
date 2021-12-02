@@ -1,4 +1,4 @@
-# Data Preprocessing
+# Part 1 - Data Preprocessing
 import numpy as np
 import pandas as pd
 
@@ -83,7 +83,7 @@ df = pd.read_csv ('data_2021_10_31.csv')
 x = df.drop (["STATUS"], axis=1).values
 y = df ["STATUS"].values
 
-# Final Model
+# Part 2 - Final Model
 
 import pandas as pd
 import numpy as np
